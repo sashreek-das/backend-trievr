@@ -1,7 +1,6 @@
 const express = require("express");
 const { authMiddleware } = require("./middleware");
 const { User, Ticket } = require("../db");
-const { ERR_TX_INVALID_SENDER } = require("web3");
 
 
 const router = express.Router();
